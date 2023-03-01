@@ -8,7 +8,7 @@ import os, pickle
 from dirty_cat import (SimilarityEncoder, TargetEncoder,
                        MinHashEncoder, GapEncoder)
 from preprocess_functions import preprocess_df
-##### FIX MICHAELA'S CARD NUMBER
+
 cur_path = os.path.abspath('.')
 folder = input("What Folder?")
 with open(os.path.join(cur_path,'model','gbct_model_20230228.pkl'), 'rb') as file : 
